@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="google-site-verification" content="kjkDQomnpCJSsdVIPI4tB_VjA3mgA8qJt3k06V6FgMk" />      
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <title>Wei Xiao</title>
+      <!-- Bootstrap -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"-->
+      <link href="css/custom.css" rel="stylesheet">
+
+      <style>
+        div.scroll {
+	  margin:4px, 4px;
+	  padding:4px;
+	  background-color: white;
+	  width: 900px;
+	  height: 110px;
+	  overflow-x: hidden;
+	  overflow-y: auto;
+	  text-align:justify;
+        }
+
+        navstk {
+	  float: right;
+	  background-color: #333;
+	  padding: 14px 16px;
+	  text-align: center;
+	  width: 100%;
+	  position: sticky;
+	  top: 0px;
+	}
+
+	navstk a {
+	  float: center;
+	  color: #f2f2f2;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 17px;
+	}
+
+	navstk a:hover {
+	  background-color: #ddd;
+	  color: black;
+	}
+	navstk a:focus {
+	  background-color: #04AA6D;
+	  color: white;
+	}
+      </style>
+      <!-- overflow: auto; -->
+	   
+      <link rel="icon" href="wei.jpg">    
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+   </head>
+   
+   <style>
+      hr {
+      margin-top:40px;
+      margin-bottom:40px;
+      }
+   </style>
+   <script type="text/javascript">
+          function toggle_visibility(id) {
+             var e = document.getElementById(id);
+             if(e.style.display == 'block')
+                e.style.display = 'none';
+             else
+                e.style.display = 'block';
+          }
+   </script>
+   
+   
+<!-- main body -->
+   <body>
+      <navstk>
+        <a class="active" href="#">Home</a>
+        <a class="active" href="#Journal">Journal</a>
+        <a class="active" href="#Conference">Conference</a>
+        <a class="active" href="#Education">Education</a>
+        <a class="active" href="#Honors">Honors</a>
+      </navstk>
+	   
+      <div class="container">
+      <div class="row">
+      <div class="span3 bs-docs-sidebar">
+         <!-- <hr class="hidden-phone"/> -->
+         <div class="col-md-3", style="padding-right: 40px;padding-top: 75px">
+            <img class="logo-image" src="wei.jpg" alt="" style="max-width: 200px; border-radius: 10px"><br>
+         </div>
+      </div>
+      <!-- <hr class="hidden-phone"/> -->
+      <!--           <div class="text-center hidden-phone">
+         <img src="wei.jpg" alt="photo" class="logo-image" align="left" style="border-top-width: 20px; margin-top: 80px;"/>
+         </div> -->
+      <!-- 		<div class="row">
+         <div class="col-md-3", style="padding-right: 40px">
+         	<img class="logo-image" src="wei.jpg" alt="" style="max-width: 200px; border:1px solid black"><br>
+         </div>          
+              </div> -->
+      
+      <!--ul class="nav nav-pills pull-right fixed-top" style="border-top-width: 20px; margin-top: 20px; ">
+         <li class="active"><a href="#">Home</a></li>
+         <li class="active"><a href="#Journal">Journal</a></li>
+         <li class="active"><a href="#Conference">Conference</a></li>
+         <li class="active"><a href="#Education">Education</a></li>
+         <li class="active"><a href="#Honors">Honors</a></li>
+      </ul-->
+         
+      <div class="row">
+         <div class="col-md-10">
+            <br>
+            <br>
+            <br>
+            <h2>Wei Xiao</h2>  
+ 
+            <p> 
+               I am a Postdoc Associate at the MIT Computer Science and Artificial Intelligence Laboratory (since Sep. 2021) advised by Prof. <a rel='nofollow' target='_blank' href='http://danielarus.csail.mit.edu/'>Daniela Rus</a>. I got my Ph.D. degree in Systems Engineering in 2021 at Boston University advised by Prof. <a rel='nofollow' target='_blank' href='https://christosgcassandras.org/'>Christos G. Cassandras</a>  and Prof. <a rel='nofollow' target='_blank' href='http://sites.bu.edu/hyness/calin/'>Calin Belta</a>.  
+            <p>
+               My research interest includes safety-critical control theory and trustworthy machine learning with applications to robotics and multi-agent systems. 
+            <p>
+               Email: weixy [at] mit (dot) edu  
+
+               <a href="https://scholar.google.com/citations?user=BxdZJNQAAAAJ&hl=en">[Google Scholar]</a> / <a href="https://github.com/weixy21">[Github]</a> / <a href="https://www.linkedin.com/in/wei-xiao-0220581b2/">[LinkedIn]</a>  
+            </p>
+         </div>
+      </div>
+	      
+      <div class="row">
+      <div class="col-lg-2">
+      </div>   
+      <div id="education">
+	
+      <br>
+      <div class="item border-bottom">
+	  <ul>
+	       My ambition is to develop a new science of autonomy that integrates intelligence with certifiability. This science will be the cornerstone for a future where AI-enabled robots are an everyday presence, safely and efficiently augmenting human cognitive and physical capabilities. See the figure below for a brief summary of my work.
+	       <p> 
+		<td>
+                <img src="paper_figs/Vision.PNG" width=125%>
+              </td>
+	  </ul>
+      </div>
+      
+      <hr>   
+      <div class="item border-bottom">
+         <ul>
+            <h3>Research highlights</h3>
+	      <li>  
+		   <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/abnet.png'><img width='200' src='paper_figs/abnet.png' height='140' border='0'  style='border-radius: 5px'/></a></td>
+		   &nbsp; &nbsp; ABNet: Adaptive explicit-Barrier Net for Safe and Scalable Robot Learning, ICML 2025: <a rel='nofollow' target='_blank' href='https://arxiv.org/abs/2406.13025'> arXiv</a>
+            </li> 
+	     <li>  
+		   <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/safediffuer.png'><img width='200' src='paper_figs/safediffuser.png' height='140' border='0'  style='border-radius: 5px'/></a></td>
+		   &nbsp; &nbsp; SafeDiffuser: Safe Planning with Diffusion Probabilistic Models, ICLR 2025: <a rel='nofollow' target='_blank' href='https://safediffuser.github.io/safediffuser/'> Website</a>
+            </li> 
+            <li>  
+		   <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/invprop.png'><img width='200' src='paper_figs/invprop.png' height='140' border='0'  style='border-radius: 5px'/></a></td>
+		   &nbsp; &nbsp; On the forward invariance of neural ODEs, ICML 2023: <a rel='nofollow' target='_blank' href='https://weixy21.github.io/invariance/'> Website</a>
+            </li>
+           
+         </ul>
+      </div>
+      
+	      
+<!-- News. -->
+      <hr>
+         <section class="hero">
+         <div class="hero-body">
+             <div class="container">
+               <h3 class="title is-3">Recent News (last update: Jan. 2025)</h3>
+               <!--div class="content"-->
+	       <div class="scroll">
+		  <ul>
+		  <li> [05/2025] Our ABNet paper is accepted in <font color="red">ICML 2025</font>.  </li>
+		  <li> [01/2025] Our SafeDiffuser paper is now accepted in <font color="red">ICLR 2025</font>.  </li>
+		  <li> [11/2024] One paper is accepted in Cybernetics and AI.  </li>
+		  <li> [07/2024] Three papers are accepted in CDC 2024.  </li>
+		  <li> [04/2024] Our special session on safety-critical control is available in Annual Reviews in Controls.  </li>
+	          <li> [04/2024] One paper is accepted in ARC 2024.  </li>
+		  <li> [01/2024] Three papers (foundation model driving, swarm robots, autonomous vessels) are accepted in ICRA 2024.  </li>
+		  <li> [01/2024] Two papers regarding optimal control for mixed traffic are accepted in ACC 2024  </li>
+		  <li> [01/2024] One paper of safe control for soft robots is accepted in RoboSoft 2024.  </li>
+		  <li> [01/2024] One paper, secure ontrol for CAVs, is accepted in VehicleSec 2024.  </li>
+		  <li> [12/2023] One paper regarding event/self triggered CBFs for CAVs is accepted in Automatica.  </li>
+	          <li> [11/2023] One paper is accepted in NeurIPS 2023 robot learning workshop.  </li>
+	          <li> [10/2023] One paper is accepted in CoRL 2023 OOD workshop.  </li>
+	          <li> [09/2023] Two papers are accepted in NeurIPS 2023.  </li>
+		  <li> [08/2023] One paper is accepted in CoRL 2023 as an oral paper (6.6%).  </li>
+	          <li> [07/2023] Three papers are accepted in CDC 2023.  </li>
+	          <li> [07/2023] One paper is accepted in ITSC 2023.  </li>
+                  <li> [06/2023] Three papers (one conference, two journals) are accepted to present at IROS 2023.  </li>
+	          <li> [05/2023] One paper is accepted in CCTA 2023, and is selected as the best student paper award finalist (as advisor and co-author).  </li>
+		  <li> [04/2023] Our invariance paper is accepted in <font color="red">ICML 2023</font>.  </li>
+	          <li> [03/2023] One paper about learning stability attention is accepted in L4DC 2023.  </li>
+	          <li> [03/2023] One paper about learning feasibility constraints is accepted in ECC 2023.  </li>
+		  <li> [02/2023] Our BarrierNet paper is accepted in <font color="red">IEEE Transactions on Robotics</font>.  </li>
+		  <li> [02/2023] One paper about cyber-attacks in transportation systems is accepted in VehicleSec 2023.  </li>
+	          <li> [01/2023] One paper about risk metric evaluation is accepted in ICRA 2023.  </li>
+	          <li> [01/2023] One paper regarding game theoretic planning is accepted in RAL.  </li>
+	          <li> [12/2022] Our BarrierNet paper is conditionally accepted in IEEE Transactions on Robotics.  </li>
+		  <li> [10/2022] Our paper using optimal control for CAVs in roundabouts is accepted in T-ITS.  </li>
+		  <li> [08/2022] Our TAC paper regarding safety guarantees under unknown dynamics is now <a rel='nofollow' target='_blank' href='https://ieeexplore.ieee.org/document/9868125'> available</a>.  </li>
+		  
+		  </ul>
+               </div>
+             </div>
+         </div>
+      <hr>
+            
+<!-- Book. -->     
+      <div class="item border-bottom">
+         <ul>
+            <h3>Book</h3>
+            <li> 
+               Wei Xiao, Christos Cassandras, and Calin Belta, Safe Autonomy with Control Barrier Functions: Theory and Applications, Springer, 2023, ISBN: 978-3-031-27576-0, <a rel='nofollow' target='_blank' href='https://link.springer.com/book/10.1007/978-3-031-27576-0'> link</a>       
+            </li>            
+         </ul>
+      </div>
+      <hr>
+            
+<!-- Journal papers. -->
+      <div class="item border-bottom">
+         <ul>
+         <h3 id="Journal"> <br> Selected Journal Papers </h3>
+         <div class="container">
+            <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/bnet.gif'><img width='200' src='paper_figs/bnet.gif' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b>BarrierNet: Differentiable Control Barrier Functions for Learning of Safe Robot Control
+                           </b><br/> Wei Xiao*, Tsun-Hsuan Wang*, Ramin Hasani, Makram Chahine, Alexander Amini, Xiao Li, and Daniela Rus <br/> IEEE Transactions on Robotics (<b>TRO</b>), 2023 <br/> <a target='_blank' href='https://arxiv.org/abs/2111.11277'>arXiv 1</a>, <a target='_blank' href='https://arxiv.org/abs/2203.02401'>arXiv 2</a>, <a target='_blank' href='https://github.com/Weixy21/BarrierNet'>code</a>
+                           <pre id="xiao2022bnet" xml:space="preserve" style="display: none; font-size: 12px">
+                          @article{xiao2022bnet,
+                             title={BarrierNet: Differentiable Control Barrier Functions for Learning of Safe Robot Control},
+                             author={Wei Xiao, Tsun-Hsuan Wang, Ramin Hasani, Makram Chahine, Alexander Amini, Xiao Li, and Daniela Rus},
+                             journal={IEEE Transactions on Robotics},
+                             year={2023},
+			     volume={39},
+ 		             number={3},
+  			     pages={2289-2307},
+                             publisher={IEEE}
+                           }
+                           </pre>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+	    <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/game.png'><img width='200' src='paper_figs/game.png' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b>Intention Communication and Hypothesis Likelihood in Game-Theoretic Motion Planning
+                           </b><br/> Makram Chahine, Roya Firoozi, Wei Xiao, Mac Schwager, and Daniela Rus <br/> IEEE Robotics and Automation Letters (<b>RAL</b>), 2023 <br/> <a target='_blank' href='https://arxiv.org/abs/2209.12968'>arXiv</a>
+                           <pre id="chahine2023intention" xml:space="preserve" style="display: none; font-size: 12px">
+                          @article{chahine2023intention,
+  				title={Intention Communication and Hypothesis Likelihood in Game-Theoretic Motion Planning},
+  				author={Chahine, Makram and Firoozi, Roya and Xiao, Wei and Schwager, Mac and Rus, Daniela},
+  				journal={IEEE Robotics and Automation Letters},
+  				year={2023},
+  				publisher={IEEE}
+				}
+                           </pre>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table> 
+            <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/event_TAC.gif'><img width='200' src='paper_figs/event_TAC.gif' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b>Event-Triggered Control for Safety-Critical Systems With Unknown Dynamics
+                           </b><br/> Wei Xiao, Calin Belta, and Christos G. Cassandras <br/>IEEE Transactions on Automatic Control (<b>TAC</b>), 2023 <br/> <a target='_blank' href='https://arxiv.org/abs/2103.15874'>arXiv</a>, <a href="javascript:toggle_visibility('xiao2022event')">Bibtex</a>
+                           <pre id="xiao2022event" xml:space="preserve" style="display: none; font-size: 12px">
+                          @article{xiao2022event,
+                             title={Event-Triggered Control for Safety-Critical Systems With Unknown Dynamics},
+                             author={Xiao, Wei and Belta, Calin and Cassandras, Christos G},
+                             journal={IEEE Transactions on Automatic Control},
+                             year={2023},
+			     volume={68},
+  			     number={7},
+  			     pages={4143-4158},
+                             publisher={IEEE}
+                           }
+                           </pre>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table> 
+            <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/acbf.gif'><img width='200' src='paper_figs/acbf.gif' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b> Adaptive Control Barrier Functions
+                           </b><br/> Wei Xiao, Calin Belta, and Christos G. Cassandras <br/>IEEE Transactions on Automatic Control (<b>TAC</b>), 2022 <br/> <a target='_blank' href='https://arxiv.org/abs/2002.04577'>arXiv</a>, <a href="javascript:toggle_visibility('xiao2021adaptive')">Bibtex</a>
+                           <pre id="xiao2021adaptive" xml:space="preserve" style="display: none; font-size: 12px">
+                          @article{xiao2021adaptive,
+                             title={Adaptive control barrier functions},
+                             author={Xiao, Wei and Belta, Calin and Cassandras, Christos G},
+                             journal={IEEE Transactions on Automatic Control},
+                             volume={67},
+                             number={5},
+                             pages={2267--2281},
+                             year={2022},
+                             publisher={IEEE}
+                           }
+                           </pre>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+            <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/drone.gif'><img width='200' src='paper_figs/drone.gif' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b> High Order Control Barrier Functions
+                           </b><br/> Wei Xiao and Calin Belta <br/>IEEE Transactions on Automatic Control (<b>TAC</b>), 2022 <br/> <a target='_blank' href='https://arxiv.org/abs/1903.04706'>arXiv</a>, <a href="javascript:toggle_visibility('xiao2021high')">Bibtex</a>
+                           <pre id="xiao2021high" xml:space="preserve" style="display: none; font-size: 12px">
+                          @article{xiao2021high,
+                             title={High-order control barrier functions},
+                             author={Xiao, Wei and Belta, Calin},
+                             journal={IEEE Transactions on Automatic Control},
+                             volume={67},
+                             number={7},
+                             pages={3655--3662},
+                             year={2022},
+                             publisher={IEEE}
+                           }
+                           </pre>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+            <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/sufficient.jpg'><img width='200' src='paper_figs/sufficient.jpg' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b> Sufficient Conditions for Feasibility of Optimal Control Problems Using Control Barrier Functions
+                           </b><br/> Wei Xiao, Calin Belta, Christos G Cassandras <br/> <b>Automatica</b>, 2022 <br/> <a target='_blank' href='https://arxiv.org/abs/2011.08248'>arXiv</a>, <a href="javascript:toggle_visibility('xiao2022sufficient')">Bibtex</a>
+                           <pre id="xiao2022sufficient" xml:space="preserve" style="display: none; font-size: 12px">
+                          @article{xiao2022sufficient,
+                             title={Sufficient conditions for feasibility of optimal control problems using control barrier functions},
+                             author={Xiao, Wei and Belta, Calin A and Cassandras, Christos G},
+                             journal={Automatica},
+                             volume={135},
+                             pages={109960},
+                             year={2022},
+                             publisher={Elsevier}
+                           }
+                           </pre>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+            <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/bridging.jpg'><img width='200' src='paper_figs/bridging.jpg' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b> Bridging the Gap between Optimal Trajectory Planning and Safety-Critical Control with Applications to Autonomous Vehicles
+                           </b><br/> Wei Xiao, Christos G. Cassandras and Calin Belta <br/> <b>Automatica</b>, 2021 <br/> <a href="javascript:toggle_visibility('xiao2021bridging')">Bibtex</a>
+                           <pre id="xiao2021bridging" xml:space="preserve" style="display: none; font-size: 12px">
+                          @article{xiao2021bridging,
+                             title={Bridging the gap between optimal trajectory planning and safety-critical control with applications to autonomous vehicles},
+                             author={Xiao, Wei and Cassandras, Christos G and Belta, Calin A},
+                             journal={Automatica},
+                             volume={129},
+                             pages={109592},
+                             year={2021},
+                             publisher={Elsevier}
+                           }
+                           </pre>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table> 
+            <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/optimal.jpg'><img width='200' src='paper_figs/optimal.jpg' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b> Decentralized optimal merging control for connected and automated vehicles with safety constraints guarantees
+                           </b><br/> Wei Xiao and Christos G. Cassandras <br/> <b>Automatica</b>, 2021 <br/> <a target='_blank' href='https://arxiv.org/abs/1809.07916'>arXiv</a>, <a href="javascript:toggle_visibility('xiao2021decentralized')">Bibtex</a>
+                           <pre id="xiao2021decentralized" xml:space="preserve" style="display: none; font-size: 12px">
+                          @article{xiao2021decentralized,
+                             title={Decentralized optimal merging control for Connected and Automated Vehicles with safety constraint guarantees},
+                             author={Xiao, Wei and Cassandras, Christos G},
+                             journal={Automatica},
+                             volume={123},
+                             pages={109333},
+                             year={2021},
+                             publisher={Elsevier}
+                           }
+                           </pre>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+            <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/roundabout.jpg'><img width='200' src='paper_figs/roundabout.jpg' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b> Decentralized Time and Energy-Optimal Control of Connected and Automated Vehicles in a Roundabout with Safety and Comfort Guarantees
+                           </b><br/> Kaiyuan Xu, Christos G Cassandras, and Wei Xiao <br/> IEEE Transactions on Intelligent Transportation Systems (<b>T-ITS</b>), 2022 <br/> <a href="javascript:toggle_visibility('xu2022decentralized')">Bibtex</a>
+                           <pre id="xu2022decentralized" xml:space="preserve" style="display: none; font-size: 12px">
+                          @article{xu2022decentralized,
+                             title={Decentralized Time and Energy-Optimal Control of Connected and Automated Vehicles in a Roundabout with Safety and Comfort Guarantees},
+                             author={Xu, Kaiyuan and Cassandras, Christos G and Xiao, Wei},
+                             journal={IEEE Transactions on Intelligent Transportation Systems},
+                             year={2022},
+                             publisher={IEEE}
+                           }
+                           </pre>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+            <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/intersection.jpg'><img width='200' src='paper_figs/intersection.jpg' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b> A General Framework for Decentralized Safe Optimal Control of Connected and Automated Vehicles in Multi-Lane Intersections
+                           </b><br/> Huile Xu, Wei Xiao, Christos G Cassandras, Yi Zhang, Li Li <br/> IEEE Transactions on Intelligent Transportation Systems (<b>T-ITS</b>), 2022 <br/> <a target='_blank' href='https://arxiv.org/abs/2010.02881'>arXiv</a>, <a href="javascript:toggle_visibility('xu2022general')">Bibtex</a>
+                           <pre id="xu2022general" xml:space="preserve" style="display: none; font-size: 12px">
+                          @article{xu2022general,
+                             title={A General Framework for Decentralized Safe Optimal Control of Connected and Automated Vehicles in Multi-Lane Signal-Free Intersections},
+                             author={Xu, Huile and Xiao, Wei and Cassandras, Christos G and Zhang, Yi and Li, Li},
+                             journal={IEEE Transactions on Intelligent Transportation Systems},
+                             year={2022},
+                             publisher={IEEE}
+                           }
+                           </pre>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+         </ul>
+         </div>            
+      </div>
+      <hr>
+            
+            
+<!-- Conference papers. -->
+      <div class="item border-bottom">
+         <ul>
+         <h3 id="Conference"> <br> Selected Conference Papers</h3>
+         <div class="container">
+            <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/obs_walker_invariance.gif'><img width='200' src='paper_figs/obs_walker_invariance.gif' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b>On the Forward Invariance of Neural ODEs
+                           </b><br/> Wei Xiao, Tsun-Hsuan Wang, Ramin Hasani, Mathias Lechner, Yutong Ban, Chuang Gan and Daniela Rus <br/>International Conference on Machine Learning (<b>ICML</b>), 2023 <br/> <a target='_blank' href='https://arxiv.org/abs/2210.04763'>arXiv</a>, <a target='_blank' href="https://weixy21.github.io/invariance/">Website</a>, <a href="javascript:toggle_visibility('xiao2023invariance')">Bibtex</a>
+                           <pre id="xiao2023invariance" xml:space="preserve" style="display: none; font-size: 12px">
+                           @INPROCEEDINGS{xiao2023invariance,
+                             author={Xiao, Wei and Wang, Tsun-Hsuan and Hasani, Ramin and Lechner, Mathias and Ban, Yutong and Gan, Chuang and Rus, Daniela},
+                             booktitle={International Conference on Machine Learning}, 
+                             title={On the Forward Invariance of Neural ODEs}, 
+                             year={2023}
+                           }
+                           </pre>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+	    <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/gstep.png'><img width='200' src='paper_figs/gstep.png' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b>Gigastep - One Billion Steps per Second Multi-agent Reinforcement Learning
+                           </b><br/> Mathias Lechner, Lianhao Yin, Tim Seyde, Tsun-Hsuan Wang, Wei Xiao, Ramin Hasani, Joshua Rountree and Daniela Rus. <br/>Advances in Neural Information Processing Systems (<b>NeurIPS</b>), 2023 <br/>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+	    <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/rdm.png'><img width='200' src='paper_figs/rdm.png' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b>Adaptive Online Replanning with Diffusion Models
+                           </b><br/> Siyuan Zhou, Yilun Du, Shun Zhang, Mengdi Xu, Yikang Shen, Wei Xiao, Dit-Yan Yeung, Chuang Gan. <br/>Advances in Neural Information Processing Systems (<b>NeurIPS</b>), 2023 <br/>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+	    <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/dt.png'><img width='200' src='paper_figs/dt.png' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b>Measuring Interpretability of Neural Policies of Robots with Disentangled Representation
+                           </b><br/> Tsun-Hsuan Wang, Wei Xiao, Tim Seyde, Ramin Hasani and Daniela Rus. <br/>7th Annual Conference on Robot Learning (<b>CoRL, Oral, 6.6%</b>), 2023 <br/> <a target='_blank' href='https://openreview.net/forum?id=6kSohKYYTn0'>OpenReview</a>, <a target='_blank' href='https://arxiv.org/abs/2210.06650'>arXiv</a>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+	    <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/snc.png'><img width='200' src='paper_figs/snc.png' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b>Safe Neural Control for Non-Affine Control Systems with Differentiable Control Barrier Functions
+                           </b><br/> Wei Xiao, Ross Allen and Daniela Rus. <br/>62nd IEEE Conference on Decision and Control (<b>CDC</b>), 2023 <br/> <a target='_blank' href='https://arxiv.org/abs/2309.04492'>arXiv</a>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+	    <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/tl_bnet.png'><img width='200' src='paper_figs/tl_bnet.png' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b>Learning Robust and Correct Controllers from Signal Temporal Logic Specifications Using BarrierNet
+                           </b><br/> Wenliang Liu, Wei Xiao and Calin Belta. <br/>62nd IEEE Conference on Decision and Control (<b>CDC</b>), 2023 <br/> <a target='_blank' href='https://arxiv.org/abs/2304.06160'>arXiv</a>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+	    <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/aacbf.png'><img width='200' src='paper_figs/aacbf.png' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b>Auxiliary-Adaptive Control Barrier Functions for Safety Critical Systems
+                           </b><br/> Shuo Liu, Wei Xiao and Calin Belta. <br/>62nd IEEE Conference on Decision and Control (<b>CDC</b>), 2023 <br/> <a target='_blank' href='https://arxiv.org/abs/2304.00372'>arXiv</a>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+	    <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/rescav.png'><img width='200' src='paper_figs/rescav.png' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b>Trust-Aware Resilient Control and Coordination of Connected and Automated Vehicles
+                           </b><br/> HM Ahmad, Ehsan Sabouni, Wei Xiao, Christos G Cassandras and Wenchao Li. <br/>IEEE International Intelligent Transportation Systems Conference (<b>ITSC</b>), 2023 <br/> <a target='_blank' href='https://arxiv.org/abs/2305.16818'>arXiv</a>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+	    <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/lgame.png'><img width='200' src='paper_figs/lgame.png' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b>Local Non-Cooperative Games with Principled Player Selection for Scalable Motion Planning
+                           </b><br/> Makram Chahine, Roya Firoozi, Wei Xiao, Mac Schwager and Daniela Rus. <br/>IEEE/RSJ International Conference on Intelligent Robots and Systems (<b>IROS</b>), 2023 <br/> 
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+	    <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/testbed.png'><img width='200' src='paper_figs/testbed.png' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b>Optimal control of connected automated vehicles with event-triggered control barrier functions: a test bed for safe optimal merging
+                           </b><br/> Ehsan Sabouni, HM Sabbir Ahmad, Wei Xiao, Christos G Cassandras and Wenchao Li. <br/>IEEE Conference on Control Technology and Applications (<b>CCTA), 2023 (<b>Outstanding Student Paper Award, Best Student Paper Award Finalist</b>) <br/> <a target='_blank' href='https://arxiv.org/abs/2306.01871'>arXiv</a>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+	    <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/attCLF.png'><img width='200' src='paper_figs/attCLF.png' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b>Learning Stability Attention in Vision-based End-to-end Driving Policies
+                           </b><br/> Tsun-Hsuan Wang*, Wei Xiao*, Makram Chahine, Alexander Amini, Ramin Hasani, and Daniela Rus <br/>Learning for Dynamics and Control (<b>L4DC</b>), 2023 <br/> <a target='_blank' href='https://arxiv.org/abs/2304.02733'>arXiv</a>, <a href="javascript:toggle_visibility('wang2023learning')">Bibtex</a>
+                           <pre id="wang2023learning" xml:space="preserve" style="display: none; font-size: 12px">
+                           @INPROCEEDINGS{wang2023learning,
+                             author={Wang, Tsun-Hsuan and Xiao, Wei and Chahine, Makram and Amini, Alexander and Hasani, Ramin and Rus, Daniela},
+                             booktitle={Learning for Dynamics and Control Conference (L4DC)}, 
+                             title={Learning Stability Attention in Vision-based End-to-end Driving Policies}, 
+                             year={2023}
+                           }
+                           </pre>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+	    <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/lfea.png'><img width='200' src='paper_figs/lfea.png' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b>Learning Feasibility Constraints for Control Barrier Functions
+                           </b><br/> Wei Xiao, Christos G Cassandras, and Calin A Belta <br/>In Proc. of the European Control Conference (<b>ECC</b>), 2023 <br/> <a target='_blank' href='https://arxiv.org/abs/2303.09403'>arXiv</a>, <a href="javascript:toggle_visibility('xiao2023learning')">Bibtex</a>
+                           <pre id="xiao2023learning" xml:space="preserve" style="display: none; font-size: 12px">
+                           @INPROCEEDINGS{xiao2023learning,
+                             author={Xiao, Wei and Cassandras, Christos G. and Belta, Calin A.},
+                             booktitle={2023 European Control Conference (ECC)}, 
+                             title={Learning Feasibility Constraints for Control Barrier Functions}, 
+                             year={2023}
+                           }
+                           </pre>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+	    <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/risk.png'><img width='200' src='paper_figs/risk.png' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b>Learned Risk Metric Maps for Kinodynamic Systems
+                           </b><br/> Ross Allen, Wei Xiao, and Daniela Rus <br/>In Proc. of the International Conference on Robotics and Automation (<b>ICRA</b>), 2023 <br/> <a target='_blank' href='https://arxiv.org/abs/2302.14803'>arXiv</a>, <a href="javascript:toggle_visibility('allen2023learned')">Bibtex</a>
+                           <pre id="allen2023learned" xml:space="preserve" style="display: none; font-size: 12px">
+                           @INPROCEEDINGS{allen2023learned,
+                             author={Ross Allen and Wei Xiao and Daniela Rus},
+                             booktitle={International Conference on Robotics and Automation}, 
+                             title={Learned Risk Metric Maps for Kinodynamic Systems}, 
+                             year={2023}
+                           }
+                           </pre>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+	    <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/cyber.png'><img width='200' src='paper_figs/cyber.png' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b>Evaluations of Cyberattacks on Cooperative Control of Connected and Autonomous Vehicles at Bottleneck Points
+                           </b><br/> HM Sabbir Ahmad, Ehsan Sabouni, Wei Xiao, Christos G Cassandras, and Wenchao Li <br/>VehicleSec, 2023 <br/> <a target='_blank' href='https://www.ndss-symposium.org/wp-content/uploads/2023/02/vehiclesec2023-23082-paper.pdf'>paper</a>, <a href="javascript:toggle_visibility('ahmadevaluations')">Bibtex</a>
+                           <pre id="ahmadevaluations" xml:space="preserve" style="display: none; font-size: 12px">
+                           @INPROCEEDINGS{ahmadevaluations,
+  				title={Evaluations of Cyberattacks on Cooperative Control of Connected and Autonomous Vehicles at Bottleneck Points},
+  				author={Ahmad, HM Sabbir and Sabouni, Ehsan and Xiao, Wei and Cassandras, Christos G and Li, Wenchao}
+				booktitle={VehicleSec 2023},
+				year = {2023}
+				}
+                           </pre>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+            <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/multi.jpg'><img width='200' src='paper_figs/multi.jpg' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b>Control Barrier Functions for Systems with Multiple Control Inputs
+                           </b><br/> Wei Xiao, Calin Belta, Christos G. Cassandras and Daniela Rus <br/>In Proc. of the American Control Conference (<b>ACC</b>), 2022 <br/> <a target='_blank' href='https://arxiv.org/abs/2203.07978'>arXiv</a>, <a href="javascript:toggle_visibility('xiao2022control')">Bibtex</a>
+                           <pre id="xiao2022control" xml:space="preserve" style="display: none; font-size: 12px">
+                           @INPROCEEDINGS{xiao2022control,
+                             author={Xiao, Wei and Cassandras, Christos G. and Belta, Calin A. and Rus, Daniela},
+                             booktitle={2022 American Control Conference (ACC)}, 
+                             title={Control Barrier Functions for Systems with Multiple Control Inputs}, 
+                             year={2022},
+                             pages={2221-2226}
+                           }
+                           </pre>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+            <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/curve.png'><img width='200' src='paper_figs/curve.png' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b>Decentralized optimal merging control for connected and automated vehicles on curved roads
+                           </b><br/> Wei Xiao and Christos G. Cassandras <br/>In Proc. of 60th IEEE Conference on Decision and Control (<b>CDC</b>), 2021 <br/> <a href="javascript:toggle_visibility('xiao2021decentralized')">Bibtex</a>
+                           <pre id="xiao2021decentralized" xml:space="preserve" style="display: none; font-size: 12px">
+                           @inproceedings{xiao2021decentralized,
+                             title={Decentralized optimal merging control for connected and automated vehicles on curved roads},
+                             author={Xiao, Wei and Cassandras, Christos G},
+                             booktitle={2021 60th IEEE Conference on Decision and Control (CDC)},
+                             pages={2677--2682},
+                             year={2021},
+                             organization={IEEE}
+                           }
+                           </pre>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+            <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/event.png'><img width='200' src='paper_figs/event.png' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b>Event-triggered safety-critical control for systems with unknown dynamics
+                           </b><br/> Wei Xiao, Calin Belta, and Christos G. Cassandras <br/>In Proc. of 60th IEEE Conference on Decision and Control (<b>CDC</b>), 2021 <br/> <a href="javascript:toggle_visibility('xiao2021event')">Bibtex</a>
+                           <pre id="xiao2021event" xml:space="preserve" style="display: none; font-size: 12px">
+                           @inproceedings{xiao2021event,
+                             title={Event-triggered safety-critical control for systems with unknown dynamics},
+                             author={Xiao, Wei and Belta, Calin and Cassandras, Christos G},
+                             booktitle={2021 60th IEEE Conference on Decision and Control (CDC)},
+                             pages={540--545},
+                             year={2021},
+                             organization={IEEE}
+                           }
+                           </pre>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+            <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/rule.gif'><img width='200' src='paper_figs/rule.gif' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b>Rule-based Optimal Control for Autonomous Driving
+                           </b><br/> Wei Xiao, Noushin Mehdipour, Anne Collin, Amitai Bin-Nun, Emilio Frazzoli, Radboud Tebbens and Calin Belta <br/>12th ACM/IEEE International Conference on Cyber-Physical Systems (<b>ICCPS</b>), 2021 (<b>Best Paper Award Finalist</b>) <br/> <a target='_blank' href='https://arxiv.org/abs/2101.05709'>arXiv</a>, <a href="javascript:toggle_visibility('xiao2021rule')">Bibtex</a>
+                           <pre id="xiao2021rule" xml:space="preserve" style="display: none; font-size: 12px">
+                           @inproceedings{xiao2021rule,
+                             title={Rule-based optimal control for autonomous driving},
+                             author={Xiao, Wei and Mehdipour, Noushin and Collin, Anne and Bin-Nun, Amitai Y and Frazzoli, Emilio and Tebbens, Radboud Duintjer and Belta, Calin},
+                             booktitle={Proceedings of the ACM/IEEE 12th International Conference on Cyber-Physical Systems},
+                             pages={143--154},
+                             year={2021}
+                           }
+                           </pre>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+            <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/fgo.gif'><img width='200' src='paper_figs/fgo.gif' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b>Feasibility guided learning for constrained optimal control problems
+                           </b><br/> Wei Xiao, Calin Belta, and Christos G. Cassandras <br/>In Proc. of 59th IEEE Conference on Decision and Control (<b>CDC</b>), 2020 (<b>Outstanding Student Paper Award, Best Student Paper Award Finalist</b>) <br/> <a target='_blank' href='https://arxiv.org/abs/1912.04066'>arXiv</a>, <a href="javascript:toggle_visibility('xiao2020feasibility')">Bibtex</a>
+                           <pre id="xiao2020feasibility" xml:space="preserve" style="display: none; font-size: 12px">
+                           @inproceedings{xiao2020feasibility,
+                             title={Feasibility-guided learning for constrained optimal control problems},
+                             author={Xiao, Wei and Belta, Calin A and Cassandras, Christos G},
+                             booktitle={2020 59th IEEE Conference on Decision and Control (CDC)},
+                             pages={1896--1901},
+                             year={2020},
+                             organization={IEEE}
+                           }
+                           </pre>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+            <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/hocbf.gif'><img width='200' src='paper_figs/hocbf.gif' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b>Control barrier functions for systems with high relative degree
+                           </b><br/> Wei Xiao and Calin Belta <br/>In Proc. of 58th IEEE Conference on Decision and Control (<b>CDC</b>), 2019 (<b>Roberto Tempo Best CDC Paper Award Nominee</b>) <br/> <a target='_blank' href='https://arxiv.org/abs/1903.04706'>arXiv</a>, <a href="javascript:toggle_visibility('xiao2019control')">Bibtex</a>
+                           <pre id="xiao2019control" xml:space="preserve" style="display: none; font-size: 12px">
+                           @inproceedings{xiao2019control,
+                             title={Control barrier functions for systems with high relative degree},
+                             author={Xiao, Wei and Belta, Calin},
+                             booktitle={2019 IEEE 58th conference on decision and control (CDC)},
+                             pages={474--479},
+                             year={2019},
+                             organization={IEEE}
+                           }
+                           </pre>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+            <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/condition.png'><img width='200' src='paper_figs/condition.png' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b>Conditions for improving the computational efficiency of decentralized optimal merging controllers for connected and automated vehicles
+                           </b><br/> Wei Xiao and Christos G. Cassandras <br/>In Proc. of 58th IEEE Conference on Decision and Control (<b>CDC</b>), 2019 <br/> <a href="javascript:toggle_visibility('xiao2019conditions')">Bibtex</a>
+                           <pre id="xiao2019conditions" xml:space="preserve" style="display: none; font-size: 12px">
+                           @inproceedings{xiao2019conditions,
+                             title={Conditions for improving the computational efficiency of decentralized optimal merging controllers for connected and automated vehicles},
+                             author={Xiao, Wei and Cassandras, Christos G},
+                             booktitle={2019 IEEE 58th Conference on Decision and Control (CDC)},
+                             pages={3158--3163},
+                             year={2019},
+                             organization={IEEE}
+                           }
+                           </pre>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+            <table style='border-width:1px;border-color:rgb(255,255,255);border-collapse:collapse' cellspacing='0' bordercolor='#888' border='1'>
+                  <tbody>
+                     <tr>
+                        <td style='width:300px;height:150px'> <a imageanchor='1' href='paper_figs/cbf_merging.jpg'><img width='200' src='paper_figs/cbf_merging.jpg' height='140' border='0'  style='border-radius: 5px'/></a></td>
+                        <td style='width:1200px;height:89px;padding-left: 10px;'>
+                           <b>Decentralized merging control in traffic networks: A control barrier function approach
+                           </b><br/> 	Wei Xiao, Calin Belta, and Christos G. Cassandras <br/>In Proc. of 10th ACM/IEEE International Conference on Cyber-Physical Systems (<b>ICCPS</b>), 2019 <br/> <a href="javascript:toggle_visibility('xiao2019decentralized')">Bibtex</a> , <a target='_blank' href='https://www.mathworks.com/matlabcentral/fileexchange/71698-autonomous-driving-in-real-time-traffic-merging'>code</a>
+                           <pre id="xiao2019decentralized" xml:space="preserve" style="display: none; font-size: 12px">
+                           @inproceedings{xiao2019decentralized,
+                             title={Decentralized merging control in traffic networks: A control barrier function approach},
+                             author={Xiao, Wei and Belta, Calin and Cassandras, Christos G},
+                             booktitle={Proceedings of the 10th ACM/IEEE International Conference on Cyber-Physical Systems},
+                             pages={270--279},
+                             year={2019}
+                           }
+                           </pre>
+                        </td>
+                     </tr>
+                  </tbody>
+            </table>
+         </ul>
+         </div>            
+      </div>
+      <hr>
+
+<!-- education. -->
+      <div class="item border-bottom">
+         <ul>
+            <h3 id="Education" > <br> Education</h3>
+            <li> 
+               2017.9 - 2021.8, Boston University <br>
+               Ph.D in Systems Engineering with honors
+            </li>            
+            <li> 
+               2013.9 - 2016.6, University of Chinese Academy of Sciences (Institute of Automation, Chinese Academy of Sciences) <br>
+               M.Sc in Robotics 
+            </li>
+            <li> 
+               2009.9 - 2013.6, University of Science and Technology Beijing   <br>
+               B.Sc. in Mechanical Engineering with honors   <br>
+            </li>
+         </ul>
+      </div>
+      <hr>
+            
+<!-- honors. -->
+      <div class="item border-bottom">
+         <ul>
+            <h3 id="Honors" > <br> Selected Honors</h3>
+	    <li> 
+	       IEEE CCTA 2023, Best Student Paper Award Finalist (as advisor and co-author), 5/2023
+	    </li>
+            <li> 
+               Boston University Outstanding Dissertation Award, 5/2022
+            </li>
+            <li> 
+               ACM/IEEE ICCPS 2021, Best Paper Award Finalist, 5/2021
+            </li>
+            <li> 
+               IEEE CDC 2020, Outstanding Student Paper Award, 12/2020
+            </li>
+	    <li> 
+               IEEE CDC 2020, Roberto Tempo Best CDC Paper Award Nominee, 12/2020
+            </li>
+            <li> 
+               Boston University PhD Distinguished Fellowship Award, 9/2017
+            </li>
+            <li> 
+               iQIYI Young Staff Award, 1/2017
+            </li>
+            <li> 
+               UCAS National Graduate Scholarship, 5/2015
+            </li>
+            <li> 
+               Beijing Outstanding Undergraduate Award, 6/2013
+            </li>
+         </ul>
+      </div>
+      <hr>
+            
+<!-- Patents. -->
+      <div class="item border-bottom">
+         <ul>
+            <h3>Patent</h3>
+            <li> 
+               <b>Vehicle operation using behavioral rule checks</b> <br>
+               Radboud Duintjer Tebbens, Calin Belta, Hsun-Hsien Chang, Amitai Bin-Nun, Anne Collin, Noushin Mehdipour, Wei Xiao <br>
+               US Patent App. 17/497,245, 2022
+            </li>
+         </ul>
+      </div>
+      <hr>
+
+<!-- Grants. -->
+      <div class="item border-bottom">
+         <ul>
+            <h3>Grants Writeup</h3>
+            <li> 
+               <b>Funded</b> <br>
+               Capgemini-MIT Research Project on Trustworthy Machine Learning, 10/2021-10/2024 <br>
+	       Toyota Research Institute Research Project on Safe Autonomous Driving, 09/2022-09/2024 
+            </li>
+	    <li>
+	    
+	    </li>
+         </ul>
+      </div>
+      <hr>
+            
+<!-- Professional. -->
+      <div class="item border-bottom">
+         <ul>
+            <h3>Professional Activity</h3>
+            <li> 
+               <b>Reviewing</b> <br>
+               Journals: IEEE-TAC, Automatica, IEEE-TRO, L-CSS, RAL, IEEE T-ITS, etc. <br>
+               Conferences: ICML(2023), NeurIPS (2022-2023), ICRA (2022-2024), CDC (2019-2023), ACC (2019-2024), etc.
+            </li>
+            <li> 
+               <b>Organization and Membership</b> <br>
+	       Guest Editor of Annual Reviews in Control, Special Session on Safety-critical Control for Multi-agent Systems, 08/2023 - Present <br>
+               Chair of Lyapunov Methods section at ACC 2022, Atlanta, Georgia <br>
+               Technical committee of IEEE-CSS on Smart Cities since 9/2021
+            </li>
+         </ul>
+      </div>
+      <hr>
+            
+<!-- Teaching and Lectures. -->
+      <div class="item border-bottom">
+         <ul>
+            <h3>Teaching and Lectures</h3>
+            <li> 
+               <b>Teaching Assistant (weekly lectures)</b> <br>
+               EC103-Linear Algebra, Boston University,  Spring 2020 <br>
+               EC103-Linear Algebra, Boston University,  Spring 2019
+            </li>
+            <li> 
+               <b>Lectures</b> <br>
+	       EC700-Safe Autonomy, Boston University, 4/10/2023 <br>
+               EC700-Cyberphysical Systems and Autonomous Vehicles, Boston University, 3/22/2021 <br>
+               High order control barrier functions, Department of Automation, University of Science and Technology Beijing, 12/5/2019
+            </li>
+         </ul>
+      </div>
+      <hr>
+            
+<!-- Misc. -->
+    <div id="education">
+         <ul>
+         <h3>Misc Projects</h3>
+         <table style="float: left; width:30%">
+
+            <tr>
+               <td style='width:501px;height:129px'> <a imageanchor='1' href='paper_figs/manipulator.gif'><img width='501' src='paper_figs/manipulator.gif' height='129' border='100' style='border-radius: 5px'/></a></td>
+               <td style='width:501px;height:129px'><b>Manipulator </b><br/>State Grid of China <br/>   </td>
+            </tr>
+         </table>
+         <table style="float: left; width:30%">
+            <tr>
+               <td style='width:501px;height:129px'> <a imageanchor='1' href='paper_figs/qrobot.jpg'><img width='501' src='paper_figs/qrobot.jpg' height='129' border='0' align="middle" style='border-radius: 5px'/></a></td>
+               <td style='width:501px;height:129px'><b>Quadruped Robot</b><br/>IA, CAS<br/>
+               </td>
+            </tr>
+   
+         </table>
+         <table style="float: left; width:30%">
+             <tr>
+               <td style='width:501px;height:129px'> <a imageanchor='1' href='paper_figs/bnet.gif'><img width='501' src='paper_figs/bnet.gif' height='129' border='0'  align="middle" style='border-radius: 5px'/></a></td>
+               <td style='width:501px;height:129px'><b>Autonomous Driving</b><br/>MIT<br/>  
+<!--                   <a target='_blank' href='https://drive.google.com/file/d/1Dp8NrfpvFx_pqv23bxDlvOGu1g0OIxe4/view'>Demo</a> 
+ -->               </td>
+            </tr>
+         </table>
+   </div>
+    <hr>
+	    
+   <!--    div id="education">
+   <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=ZLGfkqyfXXS4zKefjNM4VsyOXZa_MqTvVsBqW5asTEQ&cl=ffffff&w=a"></script>
+   </div     -->
+	    
+ </body>
+   <br>
+   <br>  
+</html>
